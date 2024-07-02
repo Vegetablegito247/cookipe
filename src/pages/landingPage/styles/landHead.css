@@ -254,6 +254,10 @@ header {
 }
 
 @media (max-width: 480px) {
+    .header_text {
+        text-align: center;
+    }
+
     .img_right {
         right: -38%;
     }
@@ -281,6 +285,10 @@ header {
 @media (max-width: 428px) {
     .land_head {
         padding: 0 24px;
+    }
+
+    .header_text h1 {
+        font-size: 45px;
     }
 
     .img_right, .img_left {

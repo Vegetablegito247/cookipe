@@ -412,21 +412,23 @@ function LandBody() {
                         <div className="video_reel">
                             <div className="video_play">
                                 <img src={grilled} alt="" />
-                                <div className="video_reactions">
-                                    <div className="reel_like">
-                                        <CiHeart />
-                                        <span>10.1k</span>
-                                        <span>likes</span>
-                                    </div>
-                                    <div className="reel_comment">
-                                        <FaRegCommentDots />
-                                        <span>10.1k</span>
-                                        <span>comments</span>
-                                    </div>
-                                    <div className="reel_share">
-                                        <IoPaperPlaneOutline />
-                                        <span>10.1k</span>
-                                        <span>share</span>
+                                <div className="reel_container">
+                                    <div className="video_reactions">
+                                        <div className="reel_like">
+                                            <CiHeart />
+                                            <span>10.1k</span>
+                                            <span>likes</span>
+                                        </div>
+                                        <div className="reel_comment">
+                                            <FaRegCommentDots />
+                                            <span>10.1k</span>
+                                            <span>comments</span>
+                                        </div>
+                                        <div className="reel_share">
+                                            <IoPaperPlaneOutline />
+                                            <span>10.1k</span>
+                                            <span>share</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -465,21 +467,23 @@ function LandBody() {
                         <div className="video_reel">
                             <div className="video_play">
                                 <img src={grilled} alt="" />
-                                <div className="video_reactions">
-                                    <div className="reel_like">
-                                        <CiHeart />
-                                        <span>10.1k</span>
-                                        <span>likes</span>
-                                    </div>
-                                    <div className="reel_comment">
-                                        <FaRegCommentDots />
-                                        <span>10.1k</span>
-                                        <span>comments</span>
-                                    </div>
-                                    <div className="reel_share">
-                                        <IoPaperPlaneOutline />
-                                        <span>10.1k</span>
-                                        <span>share</span>
+                                <div className="reel_container">
+                                    <div className="video_reactions">
+                                        <div className="reel_like">
+                                            <CiHeart />
+                                            <span>10.1k</span>
+                                            <span>likes</span>
+                                        </div>
+                                        <div className="reel_comment">
+                                            <FaRegCommentDots />
+                                            <span>10.1k</span>
+                                            <span>comments</span>
+                                        </div>
+                                        <div className="reel_share">
+                                            <IoPaperPlaneOutline />
+                                            <span>10.1k</span>
+                                            <span>share</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
