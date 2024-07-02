@@ -6,7 +6,7 @@
 .blogs,
 .about {
     width: 100%;
-    padding: 3rem;
+    padding: 4rem;
 }
 
 .categories_head,
@@ -370,4 +370,54 @@
     top: 5%;
     height: 350px;
     transform: rotate(270deg);
+}
+
+@media (max-width: 675px) {
+
+    .categories,
+    .latest,
+    .popular,
+    .videos,
+    .blogs,
+    .about {
+        padding: 4rem 3rem;
+    }
+}
+
+@media (max-width: 628px) {
+
+    .latest_main,
+    .popular_main,
+    .blog_main {
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+        gap: 30px;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .categories,
+    .latest,
+    .popular,
+    .videos,
+    .blogs,
+    .about {
+        padding: 4rem 2rem;
+    }
+}
+
+@media (max-width: 428px) {
+    .categories,
+    .latest,
+    .popular,
+    .videos,
+    .blogs,
+    .about {
+        padding: 4rem 24px;
+    }
+
+    .info_img {
+        height: 200px;
+    }
 }

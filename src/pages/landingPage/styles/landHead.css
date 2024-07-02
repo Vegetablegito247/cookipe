@@ -283,13 +283,7 @@ header {
         padding: 0 24px;
     }
 
-    .img_right {
-        right: -45%;
-        bottom: 2%;
-    }
-
-    .img_left {
-        left: -7%;
-        bottom: -14%;
+    .img_right, .img_left {
+        display: none;
     }
 }
