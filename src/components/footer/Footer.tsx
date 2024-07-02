@@ -54,7 +54,7 @@ function Footer() {
       </div>
       <div className="foot_bottom">
         <div className="foot_copyright">
-          <span>&copy; Copyright @2024</span>
+          <span>&copy; Copyright @2024 Cookipé</span>
         </div>
         <div className="foot_tandp">
           <ul>

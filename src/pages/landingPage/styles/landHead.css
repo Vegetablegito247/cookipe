@@ -1,6 +1,7 @@
 header {
     width: 100%;
     height: 100vh;
+    transition: height .7s;
     background-color: var(--primaryColor);
 }
 
@@ -12,6 +13,7 @@ header {
     padding: 0 4rem;
     position: relative;
     overflow: hidden;
+    transition: padding .7s;
 }
 
 .explore {
@@ -44,7 +46,7 @@ header {
     display: flex;
     border-radius: 30px;
     background-color: var(--rectangleColor);
-    border:  1.5px solid #5bbe967e;
+    border: 1.5px solid #5bbe967e;
 }
 
 .inp_ctrl {
@@ -91,12 +93,14 @@ header {
 
 }
 
-.land_count_recipe, .land_count_chef {
+.land_count_recipe,
+.land_count_chef {
     display: flex;
     gap: 5px;
 }
 
-.land_count_recipe span, .land_count_chef span {
+.land_count_recipe span,
+.land_count_chef span {
     font-size: 12px;
     font-family: var(--fontProciono);
 }
@@ -132,7 +136,8 @@ header {
     width: 50%;
 }
 
-.land_head_img1, .land_head_img2 {
+.land_head_img1,
+.land_head_img2 {
     position: absolute;
     width: fit-content;
     height: fit-content;
@@ -184,7 +189,8 @@ header {
     border-radius: 0 0 20px 20px;
 }
 
-.img_right, .img_left {
+.img_right,
+.img_left {
     position: absolute;
 }
 
@@ -200,4 +206,90 @@ header {
     bottom: -8%;
     height: 350px;
     transform: rotate(-45deg);
+}
+
+@media (max-width: 928px) {
+    .img_right {
+        right: -21%;
+        bottom: 6%;
+        height: 350px;
+        transform: rotate(45deg);
+    }
+}
+
+@media (max-width: 828px) {
+    .rectangle1,
+    .rectangle2,
+    .land_head_img_rep {
+        display: none;
+    }
+
+    .explore {
+        width: 100%;
+    }
+}
+
+@media (max-width: 675px) {
+    .land_head {
+        padding: 0 3rem;
+    }
+
+    .img_right {
+        right: -27%;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        height: 80vh;
+    }
+
+    .land_head {
+        padding: 0 2rem;
+    }
+
+    .img_right {
+        right: -31%;
+    }
+}
+
+@media (max-width: 480px) {
+    .img_right {
+        right: -38%;
+    }
+
+    .img_left {
+        left: -7%;
+        bottom: -10%;
+    }
+}
+
+@media (max-width: 450px) {
+    .searchbar form {
+        width: 100%;
+    }
+
+    .inp_ctrl {
+        width: 65%;
+    }
+
+    .frm_btn {
+        width: 35%;
+    }
+}
+
+@media (max-width: 428px) {
+    .land_head {
+        padding: 0 24px;
+    }
+
+    .img_right {
+        right: -45%;
+        bottom: 2%;
+    }
+
+    .img_left {
+        left: -7%;
+        bottom: -14%;
+    }
 }
