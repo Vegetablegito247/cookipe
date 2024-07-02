@@ -2,6 +2,7 @@ import React from 'react';
 import { FaBookReader, FaChartLine, FaNewspaper } from "react-icons/fa";
 import { MdOutlineSlowMotionVideo } from "react-icons/md";
 import { IoMdAddCircle } from "react-icons/io";
+import './navMobile.css'
 
 function NavMobile() {
     return (
