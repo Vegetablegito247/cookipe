@@ -1,0 +1,112 @@
+.rec_email,
+.rec_otp,
+.rec_pwd {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    background-color: rgba(0, 0, 0, 0.342);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rec_form {
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--secondaryColor);
+}
+
+.rec_close {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid var(--textPri);
+    color: var(--textPri);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.rec_head, .rec_head + form, .rec_ctrl, .rec_inp, .rec_inp input {
+    width: 100%;
+}
+
+.rec_head {
+    margin-bottom: 20px;
+}
+
+.rec_head h3 {
+    font-weight: 500;
+}
+
+.rec_head p {
+    font-size: 12px;
+}
+
+.rec_ctrl {
+    display: grid;
+    gap: 10px;
+}
+
+.rec_inp {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rec_inp label {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.rec_inp input {
+    background-color: #D9D9D947;
+    outline: none;
+    border: none;
+    height: 35px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.rec_btn {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.rec_btn button {
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    color: var(--textSec);
+    font-weight: 700;
+    background-color: var(--primaryColor);
+}
+
+/* Recover OTP */
+.rec_ctrl_code {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rec_ctrl_code input {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--textPri);
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #D9D9D947;
+    outline: none;
+}

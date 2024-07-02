@@ -1,0 +1,18 @@
+.create_ctrl_code {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create_ctrl_code input {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--textPri);
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #D9D9D947;
+    outline: none;
+}

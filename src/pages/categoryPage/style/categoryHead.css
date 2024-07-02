@@ -1,0 +1,33 @@
+.category_page {
+    padding: 2rem 3rem 0;
+}
+
+.category_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category_head h3 {
+    color: #00000099;
+    font-family: var(--fontSriracha);
+    font-size: 30px;
+}
+
+.category_search .searchbar form {
+    background-color: transparent;
+    border: 1.5px solid #cacaca7e;
+}
+
+.category_search .searchbar .inp_ctrl input {
+    color: rgba(27, 27, 27, 0.705);
+}
+
+.category_search .searchbar .inp_ctrl input::placeholder {
+    color: rgba(0, 0, 0, 0.425);
+}
+
+.category_search .searchbar .frm_btn {
+    background-color: var(--primaryColor);
+    color: var(--textSec);
+}

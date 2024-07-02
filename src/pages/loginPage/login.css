@@ -1,0 +1,77 @@
+.save_forget {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.save {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.save {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.forget a {
+    color: var(--textPri);
+    font-size: 12px;
+}
+
+.or {
+    text-align: center;
+    width: 400px;
+    margin: 10px 0;
+}
+
+.or span {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.or span::before {
+    content: '';
+    width: 170px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.or span::after {
+    content: '';
+    width: 170px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+.google {
+    width: 400px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid var(--textPri);
+    border-radius: 30px;
+}
+
+.google img {
+    width: 15px;
+    height: 15px;
+}
+
+.google span {
+    font-size: 12px;
+}
+
+.new_cookipe {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.new_cookipe a {
+    color: var(--textPri);
+}

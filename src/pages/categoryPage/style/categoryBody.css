@@ -1,0 +1,11 @@
+.category_main {
+    width: 100%;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    gap: 30px;
+}
+
+.category_main .info_category {
+    width: auto;
+}

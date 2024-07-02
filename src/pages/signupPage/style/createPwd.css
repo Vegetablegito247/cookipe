@@ -1,0 +1,22 @@
+.create_pwd_btn {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.create_pwd_btn button {
+    width: 50%;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--primaryColor);
+    color: var(--textSec);
+}
+
+.create_pwd_btn button:first-child {
+    border: 1px solid var(--textPri);
+    color: var(--textPri);
+    background-color: transparent;
+}

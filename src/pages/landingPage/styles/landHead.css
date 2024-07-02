@@ -1,0 +1,203 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primaryColor);
+}
+
+.land_head {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 50%;
+    color: var(--textSec);
+}
+
+.header_text {
+    display: grid;
+    gap: 15px;
+}
+
+.header_text h1 {
+    font-family: var(--fontMontagu);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.searchbar {
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+
+.searchbar form {
+    width: fit-content;
+    display: flex;
+    border-radius: 30px;
+    background-color: var(--rectangleColor);
+    border:  1.5px solid #5bbe967e;
+}
+
+.inp_ctrl {
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.inp_ctrl input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0 10px;
+    color: var(--textSec);
+}
+
+.inp_ctrl input::placeholder {
+    color: rgba(255, 255, 255, 0.692);
+}
+
+.frm_btn {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    color: var(--textPri);
+    font-weight: 700;
+}
+
+.srchIcon {
+    font-size: 16px;
+}
+
+.land_head_user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.land_count_recipe, .land_count_chef {
+    display: flex;
+    gap: 5px;
+}
+
+.land_count_recipe span, .land_count_chef span {
+    font-size: 12px;
+    font-family: var(--fontProciono);
+}
+
+.land_count_user {
+    position: relative;
+    width: 70px;
+    height: 30px;
+}
+
+.land_count_user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.land_count_user img:nth-child(2) {
+    left: 20px;
+}
+
+.land_head_img_rep {
+    position: relative;
+}
+
+.land_count_user img:nth-child(3) {
+    left: 40px;
+}
+
+.land_head_img_rep {
+    position: relative;
+    width: 50%;
+}
+
+.land_head_img1, .land_head_img2 {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+}
+
+.land_head_img2 {
+    z-index: 2;
+}
+
+.land_head_img1 {
+    transform: translate(40px, -200px);
+    z-index: 3;
+}
+
+.land_head_img2 {
+    transform: translate(140px, -120px);
+    z-index: 4;
+}
+
+.land_head_img1 img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.land_head_img2 img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.rectangle2 {
+    position: absolute;
+    left: 56.5%;
+    bottom: 0;
+    width: 205px;
+    height: 55vh;
+    background-color: var(--rectangleColor);
+    border-radius: 20px 20px 0 0;
+}
+
+.rectangle1 {
+    position: absolute;
+    left: 65.5%;
+    top: 0;
+    width: 205px;
+    height: 65vh;
+    background-color: var(--rectangleColor);
+    border-radius: 0 0 20px 20px;
+}
+
+.img_right, .img_left {
+    position: absolute;
+}
+
+.img_right {
+    right: -15%;
+    bottom: 6%;
+    height: 350px;
+    transform: rotate(45deg);
+}
+
+.img_left {
+    left: -5%;
+    bottom: -8%;
+    height: 350px;
+    transform: rotate(-45deg);
+}
