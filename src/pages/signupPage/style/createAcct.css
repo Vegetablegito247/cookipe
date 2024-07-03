@@ -139,7 +139,7 @@
     .create_img h3 {
         font-size: 30px;
     }
-    
+
     .create_form {
         padding: 3rem 2rem;
     }
@@ -147,11 +147,18 @@
     .img_rigt {
         right: -19%;
         top: -7%;
+        transform: rotate(-45deg);
     }
 }
 
 @media (max-width: 428px) {
     .create_form {
         padding: 3rem 24px;
+    }
+
+    .img_rigt {
+        right: -38%;
+        top: -3%;
+        transform: rotate(-45deg);
     }
 }
