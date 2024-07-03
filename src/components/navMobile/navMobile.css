@@ -5,7 +5,7 @@
 @media (max-width: 928px) {
     .nav_mobile {
         width: 100%;
-        height: 100px;
+        height: 80px;
         position: fixed;
         bottom: 0;
         left: 0;
@@ -26,5 +26,11 @@
 
     .nav_mob_icon {
         font-size: 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .nav_mob_info {
+        font-size: 14px;
     }
 }
