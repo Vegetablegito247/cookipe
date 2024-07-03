@@ -128,3 +128,30 @@
     object-fit: cover;
     transform: rotate(-240deg);
 }
+
+@media (max-width: 928px) {
+    .create_form form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .create_img h3 {
+        font-size: 30px;
+    }
+    
+    .create_form {
+        padding: 3rem 2rem;
+    }
+
+    .img_rigt {
+        right: -19%;
+        top: -7%;
+    }
+}
+
+@media (max-width: 428px) {
+    .create_form {
+        padding: 3rem 24px;
+    }
+}
