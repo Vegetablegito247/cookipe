@@ -4,6 +4,7 @@ import CategoryHead from './CategoryHead'
 import CategoryBody from './CategoryBody'
 import Footer from '../../components/footer/Footer'
 import Result from '../../components/category/Result'
+import NavMobile from '../../components/navMobile/NavMobile'
 
 function CategoryPage() {
     return (
@@ -12,6 +13,7 @@ function CategoryPage() {
             <CategoryHead />
             <Result />
             <CategoryBody />
+            <NavMobile />
             <Footer />
         </>
     )

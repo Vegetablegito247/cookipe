@@ -31,3 +31,25 @@
     background-color: var(--primaryColor);
     color: var(--textSec);
 }
+
+@media (max-width: 640px) {
+    .category_header {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 575px) {
+    .category_page {
+        padding: 2rem 2rem;
+    }
+
+    .category_search {
+        width: 100%;
+    }
+}
+
+@media (max-width: 428px) {
+    .category_page {
+        padding: 2rem 24px;
+    }
+}
