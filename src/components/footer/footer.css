@@ -138,6 +138,12 @@ footer {
     transform: rotate(40deg);
 }
 
+@media (max-width: 928px) {
+    footer {
+        margin-bottom: 80px;
+    }
+}
+
 @media (max-width: 828px) {
     footer {
         padding: 4rem;
