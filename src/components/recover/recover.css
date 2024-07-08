@@ -34,7 +34,11 @@
     margin-bottom: 10px;
 }
 
-.rec_head, .rec_head + form, .rec_ctrl, .rec_inp, .rec_inp input {
+.rec_head,
+.rec_head+form,
+.rec_ctrl,
+.rec_inp,
+.rec_inp input {
     width: 100%;
 }
 
@@ -109,4 +113,24 @@
     font-weight: 500;
     background-color: #D9D9D947;
     outline: none;
+}
+
+@media (max-width: 428px) {
+
+    .rec_email,
+    .rec_otp,
+    .rec_pwd {
+        padding: 0 24px;
+    }
+
+    .rec_form {
+        width: 100%;
+    }
+
+    .rec_ctrl_code input {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        font-weight: 500;
+    }
 }

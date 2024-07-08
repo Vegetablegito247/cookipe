@@ -135,18 +135,24 @@
     }
 }
 
-@media (max-width: 575px) {
-    .create_img h3 {
-        font-size: 30px;
+@media (max-width: 675px) {
+    .create_img {
+        display: none;
     }
 
+    .create_form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
     .create_form {
         padding: 3rem 2rem;
     }
 
     .img_rigt {
         right: -19%;
-        top: -7%;
+        top: -2%;
         transform: rotate(-45deg);
     }
 }
@@ -157,8 +163,8 @@
     }
 
     .img_rigt {
-        right: -38%;
-        top: -3%;
+        right: -25%;
+        top: 3%;
         transform: rotate(-45deg);
     }
 }

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 .create_ctrl_code input {
@@ -15,4 +16,13 @@
     font-weight: 500;
     background-color: #D9D9D947;
     outline: none;
+}
+
+@media (max-width: 428px) {
+    .create_ctrl_code input {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        font-weight: 500;
+    }
 }

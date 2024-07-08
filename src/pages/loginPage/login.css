@@ -75,3 +75,9 @@
 .new_cookipe a {
     color: var(--textPri);
 }
+
+@media (max-width: 928px) {
+    .google {
+        width: 100%;
+    }
+}
