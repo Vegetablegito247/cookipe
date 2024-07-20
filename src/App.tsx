@@ -5,6 +5,8 @@ import Login from './pages/loginPage/Login';
 import CreatePwd from './pages/signupPage/CreatePwd';
 import CategoryPage from './pages/categoryPage/CategoryPage';
 import ConfirmEmail from './pages/signupPage/ConfirmEmail';
+import Dashboard from './dashboard/dashMain/Dashboard';
+import Overview from './dashboard/overview/Overview';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
           <Route path='/create_pwd' element={<CreatePwd />} />
           <Route path='/confirmEmail' element={<ConfirmEmail />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/dashboard' element={<Dashboard />}>
+            <Route index element={<Overview />} />
+          </Route>
         </Routes>
       </Router>
     </div>
