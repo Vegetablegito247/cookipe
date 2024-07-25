@@ -4,6 +4,35 @@ import fried from '../images/land/landMain/fried.jpg';
 import grilled from '../images/land/landMain/grilled.jpg';
 import tacos from '../images/land/landMain/tacos.jpg';
 import user from '../images/userImg/black3.jpg';
+import { blogChartData, recipeChartData, reelChartData } from '../data/chartData';
+
+interface Insight {
+    title: string,
+    percentage: number,
+    chartData: any,
+    change: string
+}
+
+export const insightData: Insight[] = [
+    {
+        title: "Recipes",
+        percentage: 58,
+        chartData: recipeChartData,
+        change: "+23%",
+    },
+    {
+        title: "Blog",
+        percentage: -12,
+        chartData: blogChartData,
+        change: "-23%",
+    },
+    {
+        title: "Reels",
+        percentage: 100,
+        chartData: reelChartData,
+        change: "+23%",
+    }
+];
 
 interface Category {
     id: number;

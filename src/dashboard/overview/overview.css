@@ -1,0 +1,79 @@
+.overview_content {
+    padding: 10px 0;
+}
+
+.overview_insights {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    gap: 10px;
+}
+
+.insights, .statistics, .comparison {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #d7d7d7;
+    border-radius: 10px;
+}
+
+.insights_date, .insight_percentage, .statistics_head, .comparison_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.insights_date h3, .statistics_head h3, .comparison_head h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.insights_date select, .statistics_head select, .comparison_head select {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e3e3e3 ;
+    font-size: 12px;
+}
+
+.insight_chart {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.insight_chart h3 {
+    font-size: 25px;
+    font-weight: 600;
+    width: 15%;
+}
+
+.month {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.month span {
+    display: block;
+}
+
+.minus, .minusI { 
+    color: red;
+}
+
+.add, .addI {
+    color: green;
+}
+
+.minusI, .addI {
+    font-size: 20px;
+}
+
+.overview_overall {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 10px;
+    margin-top: 10px;
+}
